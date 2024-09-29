@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: shopify-order-fulfillment-sync
+  data:
+    elasticsearch:
+      clusters-name: elastic-search
+
+shopify:
+  apiVersion: 2024-07
+  baseUrl: https://%s/admin/api/%s
+  accessToken: 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
+  orderUrl: /orders.json
